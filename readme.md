@@ -35,7 +35,6 @@ Feel free to attempt any or all 😄
     <em>Python coding challenges from beginers to advance</em>
 - <a href="https://adventofcode.com/">Advent of Code</a><br/>
     <em>Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.</em>
-<hr>
-<div class="alert alert-block alert-info">
-    <b>Note:</b> Click on the links to navigate to the respective source sites
-</div>
+
+> **Note** <br/>
+> Click on the links to navigate to the respective source sites
