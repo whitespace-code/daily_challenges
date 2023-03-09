@@ -19,7 +19,7 @@ def calculate_time_taken(func):
 
         # store time after function execution
         end = time.time()
-        print(f' -- executed \'{func.__name__}\' in {round((end - begin) * 1e6,2)} ms')
+        print(f'\t-- executed \'{func.__name__}\' in {round((end - begin) * 1e9,2)} ns')
 
     return inner1
 
@@ -28,9 +28,9 @@ def calculate_time_taken(func):
 @calculate_time_taken
 def test_result(func, result):
     if func == result:
-        return print(f'True : [{func} = {result}]', end="")
+        return print(f'True:\n [\033[034m{func} == {result}\033[0m]')
     else:
-        return print(f'False : [{func} <> {result}]', end="")
+        return print(f'False:\n [\033[031m{func} <> {result}\033[0m]')
 
 if __name__ == '__main__':
     pass
